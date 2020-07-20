@@ -1,9 +1,10 @@
-express-nunjucks
+NLW - Sistema de e-coleta de resíduos
 ================
 
-Exemplo de aplicativo Node Express + Nunjucks
+Alicativo Node Express + Nunjucks
 
-[Express] (http://expressjs.com) por padrão vem com o mecanismo de modelagem Jade. Este aplicativo substitui o Jade por [Nunjucks] (http://mozilla.github.io/nunjucks/).
+[Express] (http://expressjs.com).
+[Nunjucks] (http://mozilla.github.io/nunjucks/).
 
 Instruções de instalação (para RHEL / CentOS):
 
