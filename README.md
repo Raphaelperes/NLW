@@ -20,9 +20,9 @@ Instale o git:
 
 `yum install -y git`
 
-Clone este repositório (criará automaticamente uma subpasta chamada "express-nunjucks":
+Clone este repositório:
 
-`git clone https: // github.com / ababra / express-nunjucks.git`
+`git clone https://github.com/Raphaelperes/NLW`
 
 Instale as dependências necessárias (faça isso dentro da pasta express-nunjucks):
 
@@ -30,6 +30,6 @@ Instale as dependências necessárias (faça isso dentro da pasta express-nunjuc
 
 Para iniciar o aplicativo:
 
-`DEBUG = express-nunjucks PORT = 3000. / Bin / www`
+`npm start`
 
-Abra um navegador e navegue para http: // hostname-or-IP: 3000
+Abra um navegador e navegue para http//localhost:3000
