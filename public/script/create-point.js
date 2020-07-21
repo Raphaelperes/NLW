@@ -1,3 +1,5 @@
+/* essa funçao serve para poder adicionar os estados nos campos
+*/
 function populateUFs(){
 const ufSelect = document.querySelector("select[name=uf")
 fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
@@ -11,7 +13,9 @@ fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
 }
 
 populateUFs()
-
+/*
+esse funçao pega o estado selecionado e coloca as cidades que existem naquele estado
+*/
 function getCities(event){
     const citySelect = document.querySelector("[name=city]")
     const stateInput = document.querySelector("[name=state]")
